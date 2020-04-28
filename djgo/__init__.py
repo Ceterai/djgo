@@ -1,4 +1,4 @@
-from .djgo import manage, meta, app_config, set_wsgi, log, load_module
+from .djgo import manage, meta, app_config, set_wsgi, log, load_app
 from . import admin
 from django.conf import settings
 
