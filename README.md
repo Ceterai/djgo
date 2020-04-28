@@ -24,6 +24,10 @@ Method `start_django()` (or `manage()`) is a shortcut for launching Django.
 
 Method `set_wsgi()` is a shortcut that sets Django settings env variable and returns default wsgi application.
 
+### urls.py
+
+Method `load_app()` is a shortcut that loads and returns an app module or its part.
+
 ### app/contrib.py
 
 Method `app_config()` is a shortcut that sets Django app config. Example:
